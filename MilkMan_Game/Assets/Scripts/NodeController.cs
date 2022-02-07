@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NodeController : MonoBehaviour
 {
+    public GameManager gameManager;
+
     public bool canMoveLeft=false;
     public bool canMoveRight=false;
     public bool canMoveUp=false;
@@ -17,16 +19,32 @@ public class NodeController : MonoBehaviour
     public bool isWarpRight = false;
     public bool isWarpLeft = false;
 
+    public bool milkNode = false;
+    public bool hasMilk = false;
+
+    public bool isDogStartingNode = false;
+
+    public SpriteRenderer milkSprite;
+
     // Start is called before the first frame update
     void Awake()
     {
+        gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        if(transform.childCount > 0)
+        {
+            hasMilk = true;
+            milkNode = true;
+            milkSprite = GetComponentInChildren<SpriteRenderer>();
+        }
+
         RaycastHit2D[] hitsDown;
         hitsDown=Physics2D.RaycastAll(transform.position,-Vector2.up);
 
         for(int i=0; i<hitsDown.Length; i++)
         {
             float distance = Mathf.Abs(hitsDown[i].point.y-transform.position.y);
-            if(distance<0.3f)
+            if(distance<0.3f && hitsDown[i].collider.tag =="Node")
             {
                 canMoveDown=true;
                 nodeDown=hitsDown[i].collider.gameObject;
@@ -40,7 +58,7 @@ public class NodeController : MonoBehaviour
         for(int i=0; i<hitsUp.Length; i++)
         {
             float distance = Mathf.Abs(hitsUp[i].point.y-transform.position.y);
-            if(distance<0.3f)
+            if(distance<0.3f && hitsUp[i].collider.tag =="Node")
             {
                 canMoveUp=true;
                 nodeUp=hitsUp[i].collider.gameObject;
@@ -54,7 +72,7 @@ public class NodeController : MonoBehaviour
         for(int i=0; i<hitsRight.Length; i++)
         {
             float distance = Mathf.Abs(hitsRight[i].point.x-transform.position.x);
-            if(distance<0.3f)
+            if(distance<0.3f && hitsRight[i].collider.tag =="Node")
             {
                 canMoveRight=true;
                 nodeRight=hitsRight[i].collider.gameObject;
@@ -68,12 +86,18 @@ public class NodeController : MonoBehaviour
         for(int i=0; i<hitsLeft.Length; i++)
         {
             float distance = Mathf.Abs(hitsLeft[i].point.x-transform.position.x);
-            if(distance<0.3f)
+            if(distance<0.3f && hitsLeft[i].collider.tag =="Node")
             {
                 canMoveLeft=true;
                 nodeLeft=hitsLeft[i].collider.gameObject;
             }
             
+        }
+
+        if (isDogStartingNode == true)
+        {
+            canMoveDown = true;
+            nodeDown=gameManager.dogNodeCenter;
         }
     }
 
@@ -109,4 +133,15 @@ public class NodeController : MonoBehaviour
             return null;
 
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player" && hasMilk)
+        {
+            hasMilk = false;
+            milkSprite.enabled = false;
+            gameManager.CollectedMilk(this);
+        }
+    }
+
+    //Last Line
 }

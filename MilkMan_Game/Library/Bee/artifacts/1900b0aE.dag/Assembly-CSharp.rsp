@@ -343,6 +343,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/GameManager.cs"
 "Assets/Scripts/CameraScript.cs"
+"Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/MovementScript.cs"
 "Assets/Scripts/NodeController.cs"

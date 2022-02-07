@@ -8,16 +8,19 @@ public class MovementScript : MonoBehaviour
     public GameManager gameManager;
 
     public GameObject currentNode;
-    public float speed= 4.0f;
+    public float speed= 3.0f;
 
     public string direction="";
     public string previousDirection="";
 
     public bool warp=true;
 
+    public bool isDog = false;
+
     // Start is called before the first frame update
     void Awake()
     {
+        previousDirection = "left";
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
@@ -36,6 +39,10 @@ public class MovementScript : MonoBehaviour
 
         if((transform.position.x==currentNode.transform.position.x && transform.position.y == currentNode.transform.position.y ) || reverse==true)
         {
+            if( isDog==true)
+            {
+                GetComponent<EnemyController>().ReachedCenterOfNode(currentNodeController);
+            }
             if(currentNodeController.isWarpLeft && warp == true)
             {
                 currentNode = gameManager.rightWarpNode;
@@ -56,6 +63,11 @@ public class MovementScript : MonoBehaviour
 
             else
             {
+                if(currentNodeController.isDogStartingNode && direction == "down" && (!isDog||GetComponent<EnemyController>().dogNodeState != EnemyController.DogNodeStateEnum.respawining))
+                {
+                    direction=previousDirection;
+                }
+
                 GameObject newNode = currentNodeController.GetNodeFromDirection(direction);
 
                 if(newNode !=null)
