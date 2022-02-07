@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraScript : MonoBehaviour
 {
@@ -15,5 +16,8 @@ public class CameraScript : MonoBehaviour
     {
         if(Input.GetKeyDown("escape"))
             Application.Quit();
+
+        if(Input.GetKeyDown("space"))
+            SceneManager.LoadScene("GameOver");
     }
 }

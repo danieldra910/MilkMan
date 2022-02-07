@@ -8,7 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: 29d441547af8ab2459475a9ecb9ff0ad
+  - enabled: 0
+    path: Assets/Scenes/Testing 1.unity
+    guid: 2e808fdb3190c3642a195ccb97b6d767
+  - enabled: 1
+    path: Assets/Scenes/Testing.unity
+    guid: efdcad5f514655c43b11d9ca459b11e5
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 2e043248df52cc948a21dacc77664820
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: e98fb95b8bad7c34db7de3fdf8017cfc
+  - enabled: 1
+    path: Assets/Scenes/Testing 2.unity
+    guid: c69527e4155c84c4dbd25d073d467210
   m_configObjects: {}

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - milk
+  - Node
+  - DogNode
+  - Enemy
   layers:
   - Default
   - TransparentFX
