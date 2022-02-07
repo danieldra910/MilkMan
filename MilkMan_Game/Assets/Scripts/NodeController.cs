@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class NodeController : MonoBehaviour
 {
     public GameManager gameManager;
@@ -26,6 +26,8 @@ public class NodeController : MonoBehaviour
 
     public SpriteRenderer milkSprite;
 
+    public bool isSideNode=false;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -33,6 +35,7 @@ public class NodeController : MonoBehaviour
 
         if(transform.childCount > 0)
         {
+            gameManager.GotMilk();
             hasMilk = true;
             milkNode = true;
             milkSprite = GetComponentInChildren<SpriteRenderer>();

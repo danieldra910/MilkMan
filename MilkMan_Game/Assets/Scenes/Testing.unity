@@ -154,7 +154,7 @@ Transform:
   m_Children:
   - {fileID: 1318663013}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 103
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3147524
 MonoBehaviour:
@@ -183,6 +183,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &3147525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -240,7 +241,7 @@ Transform:
   m_Children:
   - {fileID: 873120090}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 139
+  m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3546910
 MonoBehaviour:
@@ -269,6 +270,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &3546911
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -409,7 +411,7 @@ Transform:
   m_Children:
   - {fileID: 304998148}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 170
+  m_RootOrder: 158
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11460744
 MonoBehaviour:
@@ -438,6 +440,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &11460745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -497,11 +500,9 @@ Transform:
   - {fileID: 957658878}
   - {fileID: 1426223247}
   - {fileID: 447058155}
-  - {fileID: 1133392335}
   - {fileID: 816991121}
   - {fileID: 91056245}
   - {fileID: 1711519482}
-  - {fileID: 156721517}
   - {fileID: 1397004899}
   - {fileID: 1764934473}
   - {fileID: 947393263}
@@ -509,7 +510,6 @@ Transform:
   - {fileID: 2027597260}
   - {fileID: 994515919}
   - {fileID: 394555519}
-  - {fileID: 1024627266}
   - {fileID: 1859081185}
   - {fileID: 394666266}
   - {fileID: 1062759746}
@@ -525,7 +525,6 @@ Transform:
   - {fileID: 1997877722}
   - {fileID: 1635588480}
   - {fileID: 1909917888}
-  - {fileID: 1003200682}
   - {fileID: 1431159260}
   - {fileID: 2107224813}
   - {fileID: 607083755}
@@ -536,11 +535,9 @@ Transform:
   - {fileID: 915815086}
   - {fileID: 1411514829}
   - {fileID: 1751731769}
-  - {fileID: 1493029441}
   - {fileID: 1672374956}
   - {fileID: 58848175}
   - {fileID: 878917329}
-  - {fileID: 1658456770}
   - {fileID: 1860230554}
   - {fileID: 2094926067}
   - {fileID: 789831851}
@@ -558,10 +555,8 @@ Transform:
   - {fileID: 1983255797}
   - {fileID: 2125249148}
   - {fileID: 2136896700}
-  - {fileID: 1637390923}
   - {fileID: 1404512649}
   - {fileID: 964348989}
-  - {fileID: 821157618}
   - {fileID: 284791248}
   - {fileID: 1221719639}
   - {fileID: 387671158}
@@ -587,10 +582,8 @@ Transform:
   - {fileID: 1626719510}
   - {fileID: 453704713}
   - {fileID: 463716840}
-  - {fileID: 1298331009}
   - {fileID: 624955668}
   - {fileID: 2051153673}
-  - {fileID: 1652830270}
   - {fileID: 975086683}
   - {fileID: 1984631714}
   - {fileID: 433788222}
@@ -621,7 +614,6 @@ Transform:
   - {fileID: 2100633649}
   - {fileID: 237280196}
   - {fileID: 1810380580}
-  - {fileID: 168325031}
   - {fileID: 924132661}
   - {fileID: 435349227}
   - {fileID: 1193975953}
@@ -646,7 +638,6 @@ Transform:
   - {fileID: 422130840}
   - {fileID: 162113705}
   - {fileID: 459747790}
-  - {fileID: 711763720}
   - {fileID: 832554466}
   - {fileID: 436255846}
   - {fileID: 1347907729}
@@ -680,10 +671,8 @@ Transform:
   - {fileID: 2144956078}
   - {fileID: 284273710}
   - {fileID: 342239245}
-  - {fileID: 2111606458}
   - {fileID: 376457510}
   - {fileID: 1252528218}
-  - {fileID: 2085467631}
   - {fileID: 150987576}
   - {fileID: 552901341}
   - {fileID: 1076419395}
@@ -694,11 +683,9 @@ Transform:
   - {fileID: 169670383}
   - {fileID: 524034531}
   - {fileID: 1928019570}
-  - {fileID: 1289641763}
   - {fileID: 1539151779}
   - {fileID: 1521868122}
   - {fileID: 37552408}
-  - {fileID: 1003963880}
   - {fileID: 740737519}
   - {fileID: 1541939504}
   - {fileID: 1880343965}
@@ -716,10 +703,8 @@ Transform:
   - {fileID: 878575253}
   - {fileID: 1080555818}
   - {fileID: 292441921}
-  - {fileID: 338152159}
   - {fileID: 225916427}
   - {fileID: 1459239580}
-  - {fileID: 951482165}
   - {fileID: 1847111130}
   - {fileID: 682860392}
   - {fileID: 389087199}
@@ -734,17 +719,14 @@ Transform:
   - {fileID: 1170235272}
   - {fileID: 1051563759}
   - {fileID: 1548323079}
-  - {fileID: 1217503078}
   - {fileID: 1308963937}
   - {fileID: 1423023110}
   - {fileID: 1773210891}
   - {fileID: 1991085803}
   - {fileID: 1307949215}
-  - {fileID: 2111048721}
   - {fileID: 1326447983}
   - {fileID: 740096008}
   - {fileID: 1563922098}
-  - {fileID: 1758082181}
   - {fileID: 1158341686}
   - {fileID: 303349551}
   - {fileID: 146724636}
@@ -752,10 +734,8 @@ Transform:
   - {fileID: 1761624715}
   - {fileID: 668425954}
   - {fileID: 1914223317}
-  - {fileID: 1079622008}
   - {fileID: 1927394543}
   - {fileID: 815811150}
-  - {fileID: 1086296563}
   - {fileID: 867065790}
   - {fileID: 770848075}
   - {fileID: 2131303453}
@@ -766,8 +746,6 @@ Transform:
   - {fileID: 1865722224}
   - {fileID: 384071218}
   - {fileID: 1528755054}
-  - {fileID: 1670678856}
-  - {fileID: 1196486438}
   - {fileID: 128564952}
   - {fileID: 2079234174}
   - {fileID: 1098515529}
@@ -778,7 +756,6 @@ Transform:
   - {fileID: 584654823}
   - {fileID: 1683460697}
   - {fileID: 1920438548}
-  - {fileID: 1757418552}
   m_Father: {fileID: 2097999606}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -979,7 +956,7 @@ Transform:
   m_Children:
   - {fileID: 74143126}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 206
+  m_RootOrder: 191
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &37552409
 MonoBehaviour:
@@ -1008,6 +985,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &37552410
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1283,6 +1261,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &49271409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49271410}
+  - component: {fileID: 49271412}
+  - component: {fileID: 49271411}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &49271410
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49271409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.11, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1017571975}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 203.7, y: 100.04}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &49271411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49271409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 365828e2e5d22f24eb84bcdc12f35fc3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &49271412
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49271409}
+  m_CullTransparentMesh: 1
 --- !u!1 &50464783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,7 +1367,7 @@ Transform:
   m_Children:
   - {fileID: 399181281}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 75
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &50464785
 MonoBehaviour:
@@ -1343,6 +1396,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &50464786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1400,7 +1454,7 @@ Transform:
   m_Children:
   - {fileID: 527455989}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 175
+  m_RootOrder: 163
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &56060822
 MonoBehaviour:
@@ -1429,6 +1483,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &56060823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1486,7 +1541,7 @@ Transform:
   m_Children:
   - {fileID: 1158278807}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 47
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &58848176
 MonoBehaviour:
@@ -1515,6 +1570,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &58848177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1904,7 +1960,7 @@ Transform:
   m_Children:
   - {fileID: 1558361384}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 56
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &73087949
 MonoBehaviour:
@@ -1933,6 +1989,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &73087950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2073,7 +2130,7 @@ Transform:
   m_Children:
   - {fileID: 110523149}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 148
+  m_RootOrder: 137
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &81233708
 MonoBehaviour:
@@ -2102,6 +2159,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &81233709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2242,7 +2300,7 @@ Transform:
   m_Children:
   - {fileID: 1130428128}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 114
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &84422692
 MonoBehaviour:
@@ -2271,6 +2329,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &84422693
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2328,7 +2387,7 @@ Transform:
   m_Children:
   - {fileID: 1805001578}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 23
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &87139934
 MonoBehaviour:
@@ -2357,6 +2416,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &87139935
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2414,7 +2474,7 @@ Transform:
   m_Children:
   - {fileID: 1174202665}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &91056246
 MonoBehaviour:
@@ -2443,6 +2503,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &91056247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2500,7 +2561,7 @@ Transform:
   m_Children:
   - {fileID: 1023529538}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 281
+  m_RootOrder: 256
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &100162317
 MonoBehaviour:
@@ -2529,6 +2590,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &100162318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2918,7 +2980,7 @@ Transform:
   m_Children:
   - {fileID: 951941275}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 141
+  m_RootOrder: 130
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114623252
 MonoBehaviour:
@@ -2947,6 +3009,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &114623253
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2973,6 +3036,174 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.070794106, y: 0.13312626}
   m_EdgeRadius: 0
+--- !u!1 &117581509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 117581514}
+  - component: {fileID: 117581513}
+  - component: {fileID: 117581512}
+  - component: {fileID: 117581511}
+  - component: {fileID: 117581510}
+  m_Layer: 0
+  m_Name: Pitbull
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &117581510
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117581509}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029454838, y: -0.012864837}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11970713, y: 0.12273918}
+  m_EdgeRadius: 0
+--- !u!212 &117581511
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117581509}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 5789771354431496758, guid: add10cb3bb1bb9e42bd1741aac747fb3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &117581512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117581509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c98032d3adf02c4e9d1b969f458ca92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  currentNode: {fileID: 0}
+  speed: 1.5
+  direction: 
+  previousDirection: 
+  warp: 1
+  isDog: 1
+--- !u!114 &117581513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117581509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d1500c633e8ce45b1e0e95380020ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogNodeState: 0
+  dogType: 2
+  respawnState: 0
+  dogNodeStart: {fileID: 266308255}
+  dogNodeCenter: {fileID: 2092010687}
+  dogNodeLeft: {fileID: 1783702293}
+  dogNodeRight: {fileID: 1658595740}
+  movementScript: {fileID: 0}
+  startingNode: {fileID: 0}
+  leaveHome: 1
+  gameManager: {fileID: 543223580}
+  testRespawn: 0
+  isScared: 0
+  scatterNodes:
+  - {fileID: 1637390922}
+  - {fileID: 821157617}
+  - {fileID: 1003200681}
+  - {fileID: 1024627265}
+  - {fileID: 1757418551}
+  - {fileID: 1196486437}
+  - {fileID: 168325030}
+  - {fileID: 1652830269}
+  - {fileID: 1298331008}
+  scatterNodeIndex: 0
+  leftHome: 0
+--- !u!4 &117581514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117581509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.472, y: 0.274, z: 0}
+  m_LocalScale: {x: 0.61875, y: 0.85, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120418087
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,6 +3287,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &125453112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 125453113}
+  m_Layer: 0
+  m_Name: ScatterNodesGerman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &125453113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125453112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 338152159}
+  - {fileID: 951482165}
+  - {fileID: 1217503078}
+  - {fileID: 1079622008}
+  - {fileID: 1086296563}
+  - {fileID: 1670678856}
+  - {fileID: 711763720}
+  - {fileID: 2085467631}
+  - {fileID: 2111606458}
+  m_Father: {fileID: 263565159}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &128463021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3170,7 +3440,7 @@ Transform:
   m_Children:
   - {fileID: 1580443146}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 277
+  m_RootOrder: 252
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &128564953
 MonoBehaviour:
@@ -3199,6 +3469,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &128564954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3256,7 +3527,7 @@ Transform:
   m_Children:
   - {fileID: 285199091}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 237
+  m_RootOrder: 219
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &131721822
 MonoBehaviour:
@@ -3285,6 +3556,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &131721823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3591,7 +3863,7 @@ Transform:
   m_Children:
   - {fileID: 460550090}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 256
+  m_RootOrder: 235
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &146724637
 MonoBehaviour:
@@ -3620,6 +3892,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &146724638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3760,7 +4033,7 @@ Transform:
   m_Children:
   - {fileID: 700032938}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 22
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &148413595
 MonoBehaviour:
@@ -3789,6 +4062,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &148413596
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3846,7 +4120,7 @@ Transform:
   m_Children:
   - {fileID: 801508473}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 193
+  m_RootOrder: 179
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &150987577
 MonoBehaviour:
@@ -3875,6 +4149,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &150987578
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3913,7 +4188,7 @@ GameObject:
   - component: {fileID: 156721519}
   - component: {fileID: 156721518}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 4
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3931,8 +4206,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1261450484}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 10
+  m_Father: {fileID: 928921122}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &156721518
 MonoBehaviour:
@@ -3961,6 +4236,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &156721519
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4018,7 +4294,7 @@ Transform:
   m_Children:
   - {fileID: 405525552}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 153
+  m_RootOrder: 142
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &162113706
 MonoBehaviour:
@@ -4047,6 +4323,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &162113707
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4085,7 +4362,7 @@ GameObject:
   - component: {fileID: 168325033}
   - component: {fileID: 168325032}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 7
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4103,8 +4380,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1605751407}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 130
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &168325032
 MonoBehaviour:
@@ -4133,6 +4410,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &168325033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4190,7 +4468,7 @@ Transform:
   m_Children:
   - {fileID: 1012635170}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 200
+  m_RootOrder: 186
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &169670384
 MonoBehaviour:
@@ -4219,6 +4497,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &169670385
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4525,7 +4804,7 @@ Transform:
   m_Children:
   - {fileID: 487248854}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 25
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &183934547
 MonoBehaviour:
@@ -4554,6 +4833,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &183934548
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4860,7 +5140,7 @@ Transform:
   m_Children:
   - {fileID: 908455057}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 80
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &196684054
 MonoBehaviour:
@@ -4889,6 +5169,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &196684055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4946,7 +5227,7 @@ Transform:
   m_Children:
   - {fileID: 331778453}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 145
+  m_RootOrder: 134
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &200822008
 MonoBehaviour:
@@ -4975,6 +5256,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &200822009
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5115,7 +5397,7 @@ Transform:
   m_Children:
   - {fileID: 1422245323}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 177
+  m_RootOrder: 165
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &208349929
 MonoBehaviour:
@@ -5144,6 +5426,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &208349930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5284,7 +5567,7 @@ Transform:
   m_Children:
   - {fileID: 1335952072}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 28
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &220580990
 MonoBehaviour:
@@ -5313,6 +5596,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &220580991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5453,7 +5737,7 @@ Transform:
   m_Children:
   - {fileID: 1509342188}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &223761798
 MonoBehaviour:
@@ -5482,6 +5766,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &223761799
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5539,7 +5824,7 @@ Transform:
   m_Children:
   - {fileID: 549752487}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 226
+  m_RootOrder: 209
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &225916428
 MonoBehaviour:
@@ -5568,6 +5853,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &225916429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6206,7 +6492,7 @@ Transform:
   m_Children:
   - {fileID: 650507270}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 128
+  m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &237280197
 MonoBehaviour:
@@ -6235,6 +6521,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &237280198
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6261,89 +6548,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.070794106, y: 0.13312626}
   m_EdgeRadius: 0
---- !u!1 &238857964
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 238857965}
-  - component: {fileID: 238857966}
-  m_Layer: 0
-  m_Name: MilkJar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &238857965
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238857964}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1658595743}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &238857966
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238857964}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 00d710036758994439ed8d11e9706b75, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.233, y: 0.35}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &244438293
 GameObject:
   m_ObjectHideFlags: 0
@@ -6375,7 +6579,7 @@ Transform:
   m_Children:
   - {fileID: 1305543245}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 280
+  m_RootOrder: 255
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &244438295
 MonoBehaviour:
@@ -6404,6 +6608,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &244438296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6461,7 +6666,7 @@ Transform:
   m_Children:
   - {fileID: 1295042591}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 86
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &245467800
 MonoBehaviour:
@@ -6490,6 +6695,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &245467801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6713,7 +6919,7 @@ Transform:
   m_Children:
   - {fileID: 1615616183}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 122
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &254742176
 MonoBehaviour:
@@ -6742,6 +6948,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &254742177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6799,7 +7006,7 @@ Transform:
   m_Children:
   - {fileID: 278667149}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 149
+  m_RootOrder: 138
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &256333924
 MonoBehaviour:
@@ -6828,6 +7035,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &256333925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6937,6 +7145,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &263565158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263565159}
+  m_Layer: 0
+  m_Name: ScatterNodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263565159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263565158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 326535755}
+  - {fileID: 928921122}
+  - {fileID: 125453113}
+  - {fileID: 1885751703}
+  m_Father: {fileID: 2097999606}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266308255
 GameObject:
   m_ObjectHideFlags: 0
@@ -6997,6 +7239,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 1
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &266308258
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7137,7 +7380,7 @@ Transform:
   m_Children:
   - {fileID: 957558436}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 112
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &269524389
 MonoBehaviour:
@@ -7166,6 +7409,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &269524390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7334,6 +7578,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &279957041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7474,7 +7719,7 @@ Transform:
   m_Children:
   - {fileID: 246267846}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 187
+  m_RootOrder: 175
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &284273711
 MonoBehaviour:
@@ -7503,6 +7748,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &284273712
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7560,7 +7806,7 @@ Transform:
   m_Children:
   - {fileID: 2076695918}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 71
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &284791249
 MonoBehaviour:
@@ -7589,6 +7835,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &284791250
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7812,7 +8059,7 @@ Transform:
   m_Children:
   - {fileID: 949949015}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 224
+  m_RootOrder: 208
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &292441922
 MonoBehaviour:
@@ -7841,6 +8088,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &292441923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8064,7 +8312,7 @@ Transform:
   m_Children:
   - {fileID: 1325955979}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 255
+  m_RootOrder: 234
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &303349552
 MonoBehaviour:
@@ -8093,6 +8341,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &303349553
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8233,7 +8482,7 @@ Transform:
   m_Children:
   - {fileID: 826997940}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 179
+  m_RootOrder: 167
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &306684099
 MonoBehaviour:
@@ -8262,6 +8511,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &306684100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8371,6 +8621,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &326535754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326535755}
+  m_Layer: 0
+  m_Name: ScatterNodesRottweiler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &326535755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326535754}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1003963880}
+  - {fileID: 1289641763}
+  - {fileID: 2111048721}
+  - {fileID: 1758082181}
+  m_Father: {fileID: 263565159}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326999828
 GameObject:
   m_ObjectHideFlags: 0
@@ -8485,7 +8769,7 @@ Transform:
   m_Children:
   - {fileID: 429439266}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 55
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &329452252
 MonoBehaviour:
@@ -8514,6 +8798,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &329452253
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8654,7 +8939,7 @@ Transform:
   m_Children:
   - {fileID: 1858445938}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 108
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &333897420
 MonoBehaviour:
@@ -8683,6 +8968,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &333897421
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8721,7 +9007,7 @@ GameObject:
   - component: {fileID: 338152161}
   - component: {fileID: 338152160}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 1
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8739,8 +9025,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1571702799}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 225
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &338152160
 MonoBehaviour:
@@ -8769,6 +9055,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &338152161
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8826,7 +9113,7 @@ Transform:
   m_Children:
   - {fileID: 1788753803}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 188
+  m_RootOrder: 176
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &342239246
 MonoBehaviour:
@@ -8855,6 +9142,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &342239247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8995,7 +9283,7 @@ Transform:
   m_Children:
   - {fileID: 43217462}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 123
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &361562298
 MonoBehaviour:
@@ -9024,6 +9312,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &361562299
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9164,7 +9453,7 @@ Transform:
   m_Children:
   - {fileID: 510256143}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 190
+  m_RootOrder: 177
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &376457511
 MonoBehaviour:
@@ -9193,6 +9482,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &376457512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9250,7 +9540,7 @@ Transform:
   m_Children:
   - {fileID: 445830145}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 273
+  m_RootOrder: 250
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &384071219
 MonoBehaviour:
@@ -9279,6 +9569,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &384071220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9336,7 +9627,7 @@ Transform:
   m_Children:
   - {fileID: 231548518}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 73
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &387671159
 MonoBehaviour:
@@ -9365,6 +9656,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &387671160
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9422,7 +9714,7 @@ Transform:
   m_Children:
   - {fileID: 1368556915}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 231
+  m_RootOrder: 213
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &389087200
 MonoBehaviour:
@@ -9451,6 +9743,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &389087201
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9536,6 +9829,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &390544833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9759,7 +10053,7 @@ Transform:
   m_Children:
   - {fileID: 591420693}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &394555520
 MonoBehaviour:
@@ -9788,6 +10082,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &394555521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9928,7 +10223,7 @@ Transform:
   m_Children:
   - {fileID: 1485620336}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 20
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &394666267
 MonoBehaviour:
@@ -9957,6 +10252,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &394666268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10097,7 +10393,7 @@ Transform:
   m_Children:
   - {fileID: 1512895996}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 169
+  m_RootOrder: 157
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &399168624
 MonoBehaviour:
@@ -10126,6 +10422,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &399168625
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10432,7 +10729,7 @@ Transform:
   m_Children:
   - {fileID: 738134950}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 111
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &419847503
 MonoBehaviour:
@@ -10461,6 +10758,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &419847504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10518,7 +10816,7 @@ Transform:
   m_Children:
   - {fileID: 40233148}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 164
+  m_RootOrder: 152
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &420854954
 MonoBehaviour:
@@ -10547,6 +10845,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &420854955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10604,7 +10903,7 @@ Transform:
   m_Children:
   - {fileID: 1714561773}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 152
+  m_RootOrder: 141
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &422130841
 MonoBehaviour:
@@ -10633,6 +10932,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &422130842
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10690,7 +10990,7 @@ Transform:
   m_Children:
   - {fileID: 451936027}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 233
+  m_RootOrder: 215
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &429091624
 MonoBehaviour:
@@ -10719,6 +11019,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &429091625
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11025,7 +11326,7 @@ Transform:
   m_Children:
   - {fileID: 522783955}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 102
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &433788223
 MonoBehaviour:
@@ -11054,6 +11355,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &433788224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11111,7 +11413,7 @@ Transform:
   m_Children:
   - {fileID: 256380164}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 199
+  m_RootOrder: 185
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &435255779
 MonoBehaviour:
@@ -11140,6 +11442,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &435255780
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11197,7 +11500,7 @@ Transform:
   m_Children:
   - {fileID: 2010410732}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 132
+  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &435349228
 MonoBehaviour:
@@ -11226,6 +11529,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &435349229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11283,7 +11587,7 @@ Transform:
   m_Children:
   - {fileID: 1594037783}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 157
+  m_RootOrder: 145
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &436255847
 MonoBehaviour:
@@ -11312,6 +11616,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &436255848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11452,7 +11757,7 @@ Transform:
   m_Children:
   - {fileID: 576368047}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 183
+  m_RootOrder: 171
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &440551381
 MonoBehaviour:
@@ -11481,6 +11786,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &440551382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11733,6 +12039,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &447058157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11790,7 +12097,7 @@ Transform:
   m_Children:
   - {fileID: 220658932}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 165
+  m_RootOrder: 153
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &451907891
 MonoBehaviour:
@@ -11819,6 +12126,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &451907892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11959,7 +12267,7 @@ Transform:
   m_Children:
   - {fileID: 1618986668}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 94
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &453704714
 MonoBehaviour:
@@ -11988,6 +12296,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &453704715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12014,89 +12323,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.070794106, y: 0.13312626}
   m_EdgeRadius: 0
---- !u!1 &454455534
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 454455535}
-  - component: {fileID: 454455536}
-  m_Layer: 0
-  m_Name: MilkJar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &454455535
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454455534}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1783702294}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &454455536
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454455534}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 00d710036758994439ed8d11e9706b75, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.233, y: 0.35}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &459740163
 GameObject:
   m_ObjectHideFlags: 0
@@ -12211,7 +12437,7 @@ Transform:
   m_Children:
   - {fileID: 799071274}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 154
+  m_RootOrder: 143
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &459747791
 MonoBehaviour:
@@ -12240,6 +12466,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &459747792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12380,7 +12607,7 @@ Transform:
   m_Children:
   - {fileID: 1424350915}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 95
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &463716841
 MonoBehaviour:
@@ -12409,6 +12636,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &463716842
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12466,7 +12694,7 @@ Transform:
   m_Children:
   - {fileID: 2124236927}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 163
+  m_RootOrder: 151
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &469660850
 MonoBehaviour:
@@ -12495,6 +12723,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &469660851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12801,7 +13030,7 @@ Transform:
   m_Children:
   - {fileID: 600217438}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 74
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &496353865
 MonoBehaviour:
@@ -12830,6 +13059,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &496353866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12887,7 +13117,7 @@ Transform:
   m_Children:
   - {fileID: 394662140}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 215
+  m_RootOrder: 199
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &499169328
 MonoBehaviour:
@@ -12916,6 +13146,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &499169329
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12973,7 +13204,7 @@ Transform:
   m_Children:
   - {fileID: 911234546}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 216
+  m_RootOrder: 200
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &499315522
 MonoBehaviour:
@@ -13002,6 +13233,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &499315523
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13059,7 +13291,7 @@ Transform:
   m_Children:
   - {fileID: 190674739}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 109
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &507215140
 MonoBehaviour:
@@ -13088,6 +13320,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &507215141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13311,7 +13544,7 @@ Transform:
   m_Children:
   - {fileID: 128463022}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 57
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &512980216
 MonoBehaviour:
@@ -13340,6 +13573,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &512980217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13509,6 +13743,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &521494402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13649,7 +13884,7 @@ Transform:
   m_Children:
   - {fileID: 1703469173}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 53
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &522801206
 MonoBehaviour:
@@ -13678,6 +13913,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &522801207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13735,7 +13971,7 @@ Transform:
   m_Children:
   - {fileID: 1793054003}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 201
+  m_RootOrder: 187
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &524034532
 MonoBehaviour:
@@ -13764,6 +14000,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &524034533
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13904,7 +14141,7 @@ Transform:
   m_Children:
   - {fileID: 1213025434}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 121
+  m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &526303973
 MonoBehaviour:
@@ -13933,6 +14170,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &526303974
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14073,14 +14311,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   milkman: {fileID: 1593609331}
+  rottweiler: {fileID: 1717993799}
+  puddle: {fileID: 1510128149}
+  pitbull: {fileID: 117581509}
+  germanSheppard: {fileID: 1839097921}
   leftWarpNode: {fileID: 1948539713}
   rightWarpNode: {fileID: 2043129806}
   dogNodeStart: {fileID: 266308255}
   dogNodeCenter: {fileID: 2092010687}
   dogNodeLeft: {fileID: 1783702293}
   dogNodeRight: {fileID: 1658595740}
+  diedInLevel: 0
+  currentDogMode: 0
   milk: {fileID: 543223582}
-  currentMilk: 0
+  totalMilk: 0
+  remainingMilk: 0
+  milkCollectedOnThisLife: 0
   playerOneScoreText: {fileID: 1102745171}
   playerTwoScoreText: {fileID: 2066925209}
 --- !u!4 &543223581
@@ -14307,7 +14553,7 @@ Transform:
   m_Children:
   - {fileID: 1674678323}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 219
+  m_RootOrder: 203
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &549299182
 MonoBehaviour:
@@ -14336,6 +14582,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &549299183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14476,7 +14723,7 @@ Transform:
   m_Children:
   - {fileID: 717692391}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 194
+  m_RootOrder: 180
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &552901342
 MonoBehaviour:
@@ -14505,6 +14752,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &552901343
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14728,7 +14976,7 @@ Transform:
   m_Children:
   - {fileID: 1672705230}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 284
+  m_RootOrder: 259
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &584654824
 MonoBehaviour:
@@ -14757,6 +15005,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &584654825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15091,6 +15340,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &602628980
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15148,7 +15398,7 @@ Transform:
   m_Children:
   - {fileID: 348185280}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 271
+  m_RootOrder: 248
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &605327744
 MonoBehaviour:
@@ -15177,6 +15427,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &605327745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15234,7 +15485,7 @@ Transform:
   m_Children:
   - {fileID: 740188241}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 37
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &607083756
 MonoBehaviour:
@@ -15263,6 +15514,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &607083757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15320,7 +15572,7 @@ Transform:
   m_Children:
   - {fileID: 268194481}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 232
+  m_RootOrder: 214
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &624937512
 MonoBehaviour:
@@ -15349,6 +15601,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &624937513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15406,7 +15659,7 @@ Transform:
   m_Children:
   - {fileID: 1344663763}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 97
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &624955669
 MonoBehaviour:
@@ -15435,6 +15688,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &624955670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15658,7 +15912,7 @@ Transform:
   m_Children:
   - {fileID: 1476992036}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 92
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &642291382
 MonoBehaviour:
@@ -15687,6 +15941,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &642291383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15744,7 +15999,7 @@ Transform:
   m_Children:
   - {fileID: 9232792}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 81
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &644653268
 MonoBehaviour:
@@ -15773,6 +16028,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &644653269
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16079,7 +16335,7 @@ Transform:
   m_Children:
   - {fileID: 1457324294}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 259
+  m_RootOrder: 238
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &668425955
 MonoBehaviour:
@@ -16108,6 +16364,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &668425956
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16165,7 +16422,7 @@ Transform:
   m_Children:
   - {fileID: 2130371750}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 213
+  m_RootOrder: 197
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &672005714
 MonoBehaviour:
@@ -16194,6 +16451,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &672005715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16251,7 +16509,7 @@ Transform:
   m_Children:
   - {fileID: 1604006313}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 230
+  m_RootOrder: 212
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &682860393
 MonoBehaviour:
@@ -16280,6 +16538,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &682860394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16816,7 +17075,7 @@ GameObject:
   - component: {fileID: 711763722}
   - component: {fileID: 711763721}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 7
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16834,8 +17093,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1459443422}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 155
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &711763721
 MonoBehaviour:
@@ -16864,6 +17123,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &711763722
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17170,7 +17430,7 @@ Transform:
   m_Children:
   - {fileID: 1404182726}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 107
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &728874313
 MonoBehaviour:
@@ -17199,6 +17459,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &728874314
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17339,7 +17600,7 @@ Transform:
   m_Children:
   - {fileID: 580646611}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 146
+  m_RootOrder: 135
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &737963009
 MonoBehaviour:
@@ -17368,6 +17629,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &737963010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17591,7 +17853,7 @@ Transform:
   m_Children:
   - {fileID: 788071782}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 251
+  m_RootOrder: 231
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &740096009
 MonoBehaviour:
@@ -17620,6 +17882,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &740096010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17760,7 +18023,7 @@ Transform:
   m_Children:
   - {fileID: 1257341706}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 208
+  m_RootOrder: 192
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &740737520
 MonoBehaviour:
@@ -17789,6 +18052,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &740737521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17846,7 +18110,7 @@ Transform:
   m_Children:
   - {fileID: 784508439}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 59
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &743534640
 MonoBehaviour:
@@ -17875,6 +18139,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &743534641
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18264,7 +18529,7 @@ Transform:
   m_Children:
   - {fileID: 134100848}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 266
+  m_RootOrder: 243
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &770848076
 MonoBehaviour:
@@ -18293,6 +18558,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &770848077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18599,7 +18865,7 @@ Transform:
   m_Children:
   - {fileID: 230340459}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 52
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &789831852
 MonoBehaviour:
@@ -18628,6 +18894,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &789831853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19295,6 +19562,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &803832696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19601,7 +19869,7 @@ Transform:
   m_Children:
   - {fileID: 1715824676}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 263
+  m_RootOrder: 241
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &815811151
 MonoBehaviour:
@@ -19630,6 +19898,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &815811152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19770,7 +20039,7 @@ Transform:
   m_Children:
   - {fileID: 902987387}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &816991122
 MonoBehaviour:
@@ -19799,6 +20068,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &816991123
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19856,7 +20126,7 @@ Transform:
   m_Children:
   - {fileID: 1083418277}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 197
+  m_RootOrder: 183
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &819461889
 MonoBehaviour:
@@ -19885,6 +20155,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &819461890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19923,7 +20194,7 @@ GameObject:
   - component: {fileID: 821157620}
   - component: {fileID: 821157619}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 2
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19941,8 +20212,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1456268608}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 70
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &821157619
 MonoBehaviour:
@@ -19971,6 +20242,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &821157620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20111,7 +20383,7 @@ Transform:
   m_Children:
   - {fileID: 761791064}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 168
+  m_RootOrder: 156
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &823861376
 MonoBehaviour:
@@ -20140,6 +20412,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &823861377
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20197,7 +20470,7 @@ Transform:
   m_Children:
   - {fileID: 1079738206}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 184
+  m_RootOrder: 172
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &826194593
 MonoBehaviour:
@@ -20226,6 +20499,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &826194594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20366,7 +20640,7 @@ Transform:
   m_Children:
   - {fileID: 479326006}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 140
+  m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &828592048
 MonoBehaviour:
@@ -20395,6 +20669,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &828592049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20452,7 +20727,7 @@ Transform:
   m_Children:
   - {fileID: 459740164}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 156
+  m_RootOrder: 144
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &832554467
 MonoBehaviour:
@@ -20481,6 +20756,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &832554468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20621,7 +20897,7 @@ Transform:
   m_Children:
   - {fileID: 1261392284}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 76
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &842304765
 MonoBehaviour:
@@ -20650,6 +20926,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &842304766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20707,7 +20984,7 @@ Transform:
   m_Children:
   - {fileID: 172337007}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 196
+  m_RootOrder: 182
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &844254952
 MonoBehaviour:
@@ -20736,6 +21013,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &844254953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20793,7 +21071,7 @@ Transform:
   m_Children:
   - {fileID: 773974535}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 90
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &845491024
 MonoBehaviour:
@@ -20822,6 +21100,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &845491025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20879,7 +21158,7 @@ Transform:
   m_Children:
   - {fileID: 1885018496}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 174
+  m_RootOrder: 162
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &845542992
 MonoBehaviour:
@@ -20908,6 +21187,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &845542993
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21051,89 +21331,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &858835003
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 858835004}
-  - component: {fileID: 858835005}
-  m_Layer: 0
-  m_Name: MilkJar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &858835004
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858835003}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2092010688}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &858835005
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858835003}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 00d710036758994439ed8d11e9706b75, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.233, y: 0.35}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &867065789
 GameObject:
   m_ObjectHideFlags: 0
@@ -21165,7 +21362,7 @@ Transform:
   m_Children:
   - {fileID: 1954710880}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 265
+  m_RootOrder: 242
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &867065791
 MonoBehaviour:
@@ -21194,6 +21391,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &867065792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21417,7 +21615,7 @@ Transform:
   m_Children:
   - {fileID: 22262398}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 268
+  m_RootOrder: 245
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &873212116
 MonoBehaviour:
@@ -21446,6 +21644,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &873212117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21503,7 +21702,7 @@ Transform:
   m_Children:
   - {fileID: 1695741339}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 234
+  m_RootOrder: 216
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &873315141
 MonoBehaviour:
@@ -21532,6 +21731,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &873315142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21589,7 +21789,7 @@ Transform:
   m_Children:
   - {fileID: 1837683087}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 222
+  m_RootOrder: 206
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &878575254
 MonoBehaviour:
@@ -21618,6 +21818,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &878575255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21675,7 +21876,7 @@ Transform:
   m_Children:
   - {fileID: 2089372434}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 48
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &878917330
 MonoBehaviour:
@@ -21704,6 +21905,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &878917331
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21927,7 +22129,7 @@ Transform:
   m_Children:
   - {fileID: 872212310}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 41
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &890098516
 MonoBehaviour:
@@ -21956,6 +22158,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &890098517
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22511,7 +22714,7 @@ Transform:
   m_Children:
   - {fileID: 1083827621}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 42
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &915815087
 MonoBehaviour:
@@ -22540,6 +22743,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &915815088
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22763,7 +22967,7 @@ Transform:
   m_Children:
   - {fileID: 1160097718}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 131
+  m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &924132662
 MonoBehaviour:
@@ -22792,6 +22996,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &924132663
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22818,6 +23023,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.070794106, y: 0.13312626}
   m_EdgeRadius: 0
+--- !u!1 &928921121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928921122}
+  m_Layer: 0
+  m_Name: ScatterNodesPuddle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928921122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928921121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1658456770}
+  - {fileID: 1493029441}
+  - {fileID: 1133392335}
+  - {fileID: 156721517}
+  m_Father: {fileID: 263565159}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928941864
 GameObject:
   m_ObjectHideFlags: 0
@@ -23015,7 +23254,7 @@ Transform:
   m_Children:
   - {fileID: 293499233}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 126
+  m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &941236481
 MonoBehaviour:
@@ -23044,6 +23283,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &941236482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23101,7 +23341,7 @@ Transform:
   m_Children:
   - {fileID: 1605325863}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &947393264
 MonoBehaviour:
@@ -23130,6 +23370,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &947393265
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23251,7 +23492,7 @@ GameObject:
   - component: {fileID: 951482167}
   - component: {fileID: 951482166}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 2
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23269,8 +23510,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1807557671}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 228
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &951482166
 MonoBehaviour:
@@ -23299,6 +23540,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &951482167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23551,6 +23793,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &957658880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23774,7 +24017,7 @@ Transform:
   m_Children:
   - {fileID: 961320620}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 69
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &964348990
 MonoBehaviour:
@@ -23803,6 +24046,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &964348991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23860,7 +24104,7 @@ Transform:
   m_Children:
   - {fileID: 1731834368}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 100
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &975086684
 MonoBehaviour:
@@ -23889,6 +24133,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &975086685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23946,7 +24191,7 @@ Transform:
   m_Children:
   - {fileID: 1045869661}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 151
+  m_RootOrder: 140
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &981853732
 MonoBehaviour:
@@ -23975,6 +24220,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &981853733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24032,7 +24278,7 @@ Transform:
   m_Children:
   - {fileID: 1516748064}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &994515920
 MonoBehaviour:
@@ -24061,6 +24307,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &994515921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24118,7 +24365,7 @@ Transform:
   m_Children:
   - {fileID: 103039462}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 39
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &996682634
 MonoBehaviour:
@@ -24147,6 +24394,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &996682635
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24185,7 +24433,7 @@ GameObject:
   - component: {fileID: 1003200684}
   - component: {fileID: 1003200683}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 3
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24203,8 +24451,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2109167050}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 34
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1003200683
 MonoBehaviour:
@@ -24233,6 +24481,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1003200684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24271,7 +24520,7 @@ GameObject:
   - component: {fileID: 1003963882}
   - component: {fileID: 1003963881}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 1
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24289,8 +24538,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2082375332}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 207
+  m_Father: {fileID: 326535755}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1003963881
 MonoBehaviour:
@@ -24319,6 +24568,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1003963882
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24376,7 +24626,7 @@ Transform:
   m_Children:
   - {fileID: 293520737}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 181
+  m_RootOrder: 169
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1012319539
 MonoBehaviour:
@@ -24405,6 +24655,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1012319540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24562,7 +24813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -24607,6 +24858,7 @@ RectTransform:
   m_Children:
   - {fileID: 1102745170}
   - {fileID: 2066925208}
+  - {fileID: 49271410}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24710,7 +24962,7 @@ GameObject:
   - component: {fileID: 1024627268}
   - component: {fileID: 1024627267}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 4
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24728,8 +24980,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1487457677}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 18
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1024627267
 MonoBehaviour:
@@ -24758,6 +25010,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1024627268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24981,7 +25234,7 @@ Transform:
   m_Children:
   - {fileID: 695254607}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 61
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1033796915
 MonoBehaviour:
@@ -25010,6 +25263,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1033796916
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25233,7 +25487,7 @@ Transform:
   m_Children:
   - {fileID: 911052715}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 26
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1050968782
 MonoBehaviour:
@@ -25262,6 +25516,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1050968783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25319,7 +25574,7 @@ Transform:
   m_Children:
   - {fileID: 206005442}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 241
+  m_RootOrder: 223
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1051563760
 MonoBehaviour:
@@ -25348,6 +25603,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1051563761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25405,7 +25661,7 @@ Transform:
   m_Children:
   - {fileID: 316861480}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 118
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1054249340
 MonoBehaviour:
@@ -25434,6 +25690,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1054249341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25491,7 +25748,7 @@ Transform:
   m_Children:
   - {fileID: 1839831109}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1062759747
 MonoBehaviour:
@@ -25520,6 +25777,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1062759748
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25743,7 +26001,7 @@ Transform:
   m_Children:
   - {fileID: 1477329843}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 270
+  m_RootOrder: 247
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1070011075
 MonoBehaviour:
@@ -25772,6 +26030,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1070011076
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25829,7 +26088,7 @@ Transform:
   m_Children:
   - {fileID: 922482128}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 195
+  m_RootOrder: 181
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1076419396
 MonoBehaviour:
@@ -25858,6 +26117,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1076419397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25979,7 +26239,7 @@ GameObject:
   - component: {fileID: 1079622010}
   - component: {fileID: 1079622009}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 4
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25997,8 +26257,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1953379326}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 261
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1079622009
 MonoBehaviour:
@@ -26027,6 +26287,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1079622010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26167,7 +26428,7 @@ Transform:
   m_Children:
   - {fileID: 816351233}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 223
+  m_RootOrder: 207
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1080555819
 MonoBehaviour:
@@ -26196,6 +26457,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1080555820
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26253,7 +26515,7 @@ Transform:
   m_Children:
   - {fileID: 905369216}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 29
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1081929413
 MonoBehaviour:
@@ -26282,6 +26544,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1081929414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26339,7 +26602,7 @@ Transform:
   m_Children:
   - {fileID: 81841269}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 160
+  m_RootOrder: 148
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1082274136
 MonoBehaviour:
@@ -26368,6 +26631,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1082274137
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26655,7 +26919,7 @@ GameObject:
   - component: {fileID: 1086296565}
   - component: {fileID: 1086296564}
   m_Layer: 0
-  m_Name: Node
+  m_Name: 5
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26673,8 +26937,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1562416186}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 264
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1086296564
 MonoBehaviour:
@@ -26703,6 +26967,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1086296565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26760,7 +27025,7 @@ Transform:
   m_Children:
   - {fileID: 1649144841}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 159
+  m_RootOrder: 147
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1087910462
 MonoBehaviour:
@@ -26789,6 +27054,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1087910463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26846,7 +27112,7 @@ Transform:
   m_Children:
   - {fileID: 174142523}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 142
+  m_RootOrder: 131
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1092273495
 MonoBehaviour:
@@ -26875,6 +27141,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1092273496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27181,7 +27448,7 @@ Transform:
   m_Children:
   - {fileID: 1068644267}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 279
+  m_RootOrder: 254
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1098515530
 MonoBehaviour:
@@ -27210,6 +27477,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1098515531
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27270,7 +27538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291, y: 67}
+  m_AnchoredPosition: {x: 217.63, y: 67}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102745171
@@ -27346,7 +27614,7 @@ Transform:
   m_Children:
   - {fileID: 886902695}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 180
+  m_RootOrder: 168
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1113409374
 MonoBehaviour:
@@ -27375,6 +27643,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1113409375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27598,7 +27867,7 @@ Transform:
   m_Children:
   - {fileID: 1217994803}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 282
+  m_RootOrder: 257
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1118024675
 MonoBehaviour:
@@ -27627,6 +27896,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1118024676
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27684,7 +27954,7 @@ Transform:
   m_Children:
   - {fileID: 232019970}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 124
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1123869194
 MonoBehaviour:
@@ -27713,6 +27983,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1123869195
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27917,7 +28188,7 @@ GameObject:
   - component: {fileID: 1133392337}
   - component: {fileID: 1133392336}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 3
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27935,8 +28206,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 709656097}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 6
+  m_Father: {fileID: 928921122}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1133392336
 MonoBehaviour:
@@ -27965,6 +28236,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1133392337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28022,7 +28294,7 @@ Transform:
   m_Children:
   - {fileID: 770506859}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 166
+  m_RootOrder: 154
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1134582094
 MonoBehaviour:
@@ -28051,6 +28323,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1134582095
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28191,7 +28464,7 @@ Transform:
   m_Children:
   - {fileID: 2078831960}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 254
+  m_RootOrder: 233
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1158341687
 MonoBehaviour:
@@ -28220,6 +28493,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1158341688
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28360,7 +28634,7 @@ Transform:
   m_Children:
   - {fileID: 1479000424}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 240
+  m_RootOrder: 222
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1170235273
 MonoBehaviour:
@@ -28389,6 +28663,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1170235274
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28529,7 +28804,7 @@ Transform:
   m_Children:
   - {fileID: 627840966}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 87
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1174516476
 MonoBehaviour:
@@ -28558,6 +28833,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1174516477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28615,7 +28891,7 @@ Transform:
   m_Children:
   - {fileID: 734655460}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 119
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1176546660
 MonoBehaviour:
@@ -28644,6 +28920,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1176546661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28950,7 +29227,7 @@ Transform:
   m_Children:
   - {fileID: 1641406749}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 40
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1183527073
 MonoBehaviour:
@@ -28979,6 +29256,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1183527074
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29119,7 +29397,7 @@ Transform:
   m_Children:
   - {fileID: 939755591}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 62
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1192272964
 MonoBehaviour:
@@ -29148,6 +29426,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1192272965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29205,7 +29484,7 @@ Transform:
   m_Children:
   - {fileID: 1600610947}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 133
+  m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1193975954
 MonoBehaviour:
@@ -29234,6 +29513,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1193975955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29272,7 +29552,7 @@ GameObject:
   - component: {fileID: 1196486440}
   - component: {fileID: 1196486439}
   m_Layer: 0
-  m_Name: Node
+  m_Name: 6
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29290,8 +29570,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1510939629}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 276
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1196486439
 MonoBehaviour:
@@ -29320,6 +29600,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1196486440
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29460,7 +29741,7 @@ Transform:
   m_Children:
   - {fileID: 738854234}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 136
+  m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1201212467
 MonoBehaviour:
@@ -29489,6 +29770,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1201212468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29647,7 +29929,7 @@ GameObject:
   - component: {fileID: 1217503080}
   - component: {fileID: 1217503079}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 3
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29665,8 +29947,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1557636111}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 243
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1217503079
 MonoBehaviour:
@@ -29695,6 +29977,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1217503080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29835,7 +30118,7 @@ Transform:
   m_Children:
   - {fileID: 1488730453}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 72
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1221719640
 MonoBehaviour:
@@ -29864,6 +30147,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1221719641
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29949,6 +30233,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1235432629
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30006,7 +30291,7 @@ Transform:
   m_Children:
   - {fileID: 1084166137}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 83
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1239415169
 MonoBehaviour:
@@ -30035,6 +30320,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1239415170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30175,7 +30461,7 @@ Transform:
   m_Children:
   - {fileID: 807630886}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 191
+  m_RootOrder: 178
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1252528219
 MonoBehaviour:
@@ -30204,6 +30490,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1252528220
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30344,7 +30631,7 @@ Transform:
   m_Children:
   - {fileID: 1591862962}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 162
+  m_RootOrder: 150
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1258053896
 MonoBehaviour:
@@ -30373,6 +30660,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1258053897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30596,7 +30884,7 @@ Transform:
   m_Children:
   - {fileID: 1326153729}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 117
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1263274865
 MonoBehaviour:
@@ -30625,6 +30913,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1263274866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30682,7 +30971,7 @@ Transform:
   m_Children:
   - {fileID: 1651600454}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 135
+  m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1265639939
 MonoBehaviour:
@@ -30711,6 +31000,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1265639940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30851,7 +31141,7 @@ Transform:
   m_Children:
   - {fileID: 1314875099}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 138
+  m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1288691420
 MonoBehaviour:
@@ -30880,6 +31170,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1288691421
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30918,7 +31209,7 @@ GameObject:
   - component: {fileID: 1289641765}
   - component: {fileID: 1289641764}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 2
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30936,8 +31227,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1655088411}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 203
+  m_Father: {fileID: 326535755}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1289641764
 MonoBehaviour:
@@ -30966,6 +31257,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1289641765
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31170,7 +31462,7 @@ GameObject:
   - component: {fileID: 1298331011}
   - component: {fileID: 1298331010}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 9
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31188,8 +31480,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 549068136}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 96
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1298331010
 MonoBehaviour:
@@ -31218,6 +31510,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1298331011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31303,6 +31596,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1298613592
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31526,7 +31820,7 @@ Transform:
   m_Children:
   - {fileID: 2074249788}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 217
+  m_RootOrder: 201
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1305581363
 MonoBehaviour:
@@ -31555,6 +31849,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1305581364
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31612,7 +31907,7 @@ Transform:
   m_Children:
   - {fileID: 1588600673}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 248
+  m_RootOrder: 229
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1307949216
 MonoBehaviour:
@@ -31641,6 +31936,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1307949217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31698,7 +31994,7 @@ Transform:
   m_Children:
   - {fileID: 1804551781}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 244
+  m_RootOrder: 225
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1308963938
 MonoBehaviour:
@@ -31727,6 +32023,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1308963939
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31784,7 +32081,7 @@ Transform:
   m_Children:
   - {fileID: 33739097}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 220
+  m_RootOrder: 204
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1309513111
 MonoBehaviour:
@@ -31813,6 +32110,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1309513112
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31870,7 +32168,7 @@ Transform:
   m_Children:
   - {fileID: 1199200722}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 106
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1312451151
 MonoBehaviour:
@@ -31899,6 +32197,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1312451152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32122,7 +32421,7 @@ Transform:
   m_Children:
   - {fileID: 2089333401}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 116
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1322091133
 MonoBehaviour:
@@ -32151,6 +32450,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1322091134
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32457,7 +32757,7 @@ Transform:
   m_Children:
   - {fileID: 884993320}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 250
+  m_RootOrder: 230
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1326447984
 MonoBehaviour:
@@ -32486,6 +32786,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1326447985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32543,7 +32844,7 @@ Transform:
   m_Children:
   - {fileID: 1958617019}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 147
+  m_RootOrder: 136
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1331987513
 MonoBehaviour:
@@ -32572,6 +32873,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1331987514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32878,7 +33180,7 @@ Transform:
   m_Children:
   - {fileID: 1305265743}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 158
+  m_RootOrder: 146
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1347907730
 MonoBehaviour:
@@ -32907,6 +33209,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1347907731
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32964,7 +33267,7 @@ Transform:
   m_Children:
   - {fileID: 1957421139}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 85
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1353911422
 MonoBehaviour:
@@ -32993,6 +33296,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1353911423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33382,7 +33686,7 @@ Transform:
   m_Children:
   - {fileID: 431039189}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 115
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1358970441
 MonoBehaviour:
@@ -33411,6 +33715,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1358970442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33717,7 +34022,7 @@ Transform:
   m_Children:
   - {fileID: 392837355}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1397004900
 MonoBehaviour:
@@ -33746,6 +34051,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1397004901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33886,7 +34192,7 @@ Transform:
   m_Children:
   - {fileID: 804370714}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 68
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1404512650
 MonoBehaviour:
@@ -33915,6 +34221,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1404512651
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33972,7 +34279,7 @@ Transform:
   m_Children:
   - {fileID: 61144968}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 125
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1406968266
 MonoBehaviour:
@@ -34001,6 +34308,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1406968267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34058,7 +34366,7 @@ Transform:
   m_Children:
   - {fileID: 800220988}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 43
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1411514830
 MonoBehaviour:
@@ -34087,6 +34395,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1411514831
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34255,6 +34564,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1418043310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34312,7 +34622,7 @@ Transform:
   m_Children:
   - {fileID: 190664140}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 110
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1420248952
 MonoBehaviour:
@@ -34341,6 +34651,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1420248953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34398,7 +34709,7 @@ Transform:
   m_Children:
   - {fileID: 1179442783}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 120
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1420949125
 MonoBehaviour:
@@ -34427,6 +34738,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1420949126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34567,7 +34879,7 @@ Transform:
   m_Children:
   - {fileID: 1322863588}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 245
+  m_RootOrder: 226
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1423023111
 MonoBehaviour:
@@ -34596,6 +34908,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1423023112
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34653,7 +34966,7 @@ Transform:
   m_Children:
   - {fileID: 600562587}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 221
+  m_RootOrder: 205
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1423599267
 MonoBehaviour:
@@ -34682,6 +34995,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1423599268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34851,6 +35165,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1426223249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34908,7 +35223,7 @@ Transform:
   m_Children:
   - {fileID: 822538883}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 77
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1429374248
 MonoBehaviour:
@@ -34937,6 +35252,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1429374249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34994,7 +35310,7 @@ Transform:
   m_Children:
   - {fileID: 1027055677}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 35
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1431159261
 MonoBehaviour:
@@ -35023,6 +35339,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1431159262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35080,7 +35397,7 @@ Transform:
   m_Children:
   - {fileID: 804770680}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 143
+  m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1433338372
 MonoBehaviour:
@@ -35109,6 +35426,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1433338373
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35166,7 +35484,7 @@ Transform:
   m_Children:
   - {fileID: 1285257618}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 54
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1445109643
 MonoBehaviour:
@@ -35195,6 +35513,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1445109644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35418,7 +35737,7 @@ Transform:
   m_Children:
   - {fileID: 367720786}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 227
+  m_RootOrder: 210
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1459239581
 MonoBehaviour:
@@ -35447,6 +35766,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1459239582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35587,7 +35907,7 @@ Transform:
   m_Children:
   - {fileID: 1116966784}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 239
+  m_RootOrder: 221
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1463356652
 MonoBehaviour:
@@ -35616,6 +35936,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1463356653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35673,7 +35994,7 @@ Transform:
   m_Children:
   - {fileID: 1826673985}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 63
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1463460684
 MonoBehaviour:
@@ -35702,6 +36023,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1463460685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36045,7 +36367,7 @@ Transform:
   m_Children:
   - {fileID: 2115430746}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 173
+  m_RootOrder: 161
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1485548753
 MonoBehaviour:
@@ -36074,6 +36396,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1485548754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36380,7 +36703,7 @@ Transform:
   m_Children:
   - {fileID: 1817537198}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 283
+  m_RootOrder: 258
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1488893477
 MonoBehaviour:
@@ -36409,6 +36732,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1488893478
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36447,7 +36771,7 @@ GameObject:
   - component: {fileID: 1493029443}
   - component: {fileID: 1493029442}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 2
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36465,8 +36789,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1358103877}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 45
+  m_Father: {fileID: 928921122}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1493029442
 MonoBehaviour:
@@ -36495,6 +36819,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1493029443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36687,6 +37012,169 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1510128149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510128154}
+  - component: {fileID: 1510128153}
+  - component: {fileID: 1510128152}
+  - component: {fileID: 1510128151}
+  - component: {fileID: 1510128150}
+  m_Layer: 0
+  m_Name: Puddle
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1510128150
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510128149}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029454838, y: -0.012864837}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11970713, y: 0.12273918}
+  m_EdgeRadius: 0
+--- !u!212 &1510128151
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510128149}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 2939627858197580939, guid: 25200ef78df5d2241b584c3cf918736e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1510128152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510128149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c98032d3adf02c4e9d1b969f458ca92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  currentNode: {fileID: 0}
+  speed: 1.5
+  direction: 
+  previousDirection: 
+  warp: 1
+  isDog: 1
+--- !u!114 &1510128153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510128149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d1500c633e8ce45b1e0e95380020ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogNodeState: 0
+  dogType: 1
+  respawnState: 0
+  dogNodeStart: {fileID: 266308255}
+  dogNodeCenter: {fileID: 2092010687}
+  dogNodeLeft: {fileID: 1783702293}
+  dogNodeRight: {fileID: 1658595740}
+  movementScript: {fileID: 0}
+  startingNode: {fileID: 2092010687}
+  leaveHome: 1
+  gameManager: {fileID: 543223580}
+  testRespawn: 0
+  isScared: 0
+  scatterNodes:
+  - {fileID: 1658456769}
+  - {fileID: 1493029440}
+  - {fileID: 1133392334}
+  - {fileID: 156721516}
+  scatterNodeIndex: 0
+  leftHome: 0
+--- !u!4 &1510128154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510128149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.005, y: 0.274, z: 0}
+  m_LocalScale: {x: 0.61875, y: 0.85, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510939628
 GameObject:
   m_ObjectHideFlags: 0
@@ -36884,7 +37372,7 @@ Transform:
   m_Children:
   - {fileID: 58963892}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 78
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1513377161
 MonoBehaviour:
@@ -36913,6 +37401,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1513377162
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36970,7 +37459,7 @@ Transform:
   m_Children:
   - {fileID: 514459329}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 171
+  m_RootOrder: 159
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1513593474
 MonoBehaviour:
@@ -36999,6 +37488,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1513593475
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37139,7 +37629,7 @@ Transform:
   m_Children:
   - {fileID: 397318871}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 205
+  m_RootOrder: 190
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1521868123
 MonoBehaviour:
@@ -37168,6 +37658,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1521868124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37225,7 +37716,7 @@ Transform:
   m_Children:
   - {fileID: 1412224376}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 274
+  m_RootOrder: 251
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1528755055
 MonoBehaviour:
@@ -37254,6 +37745,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1528755056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37311,7 +37803,7 @@ Transform:
   m_Children:
   - {fileID: 1377352223}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 79
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1537721934
 MonoBehaviour:
@@ -37340,6 +37832,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1537721935
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37397,7 +37890,7 @@ Transform:
   m_Children:
   - {fileID: 1294042054}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 204
+  m_RootOrder: 189
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1539151780
 MonoBehaviour:
@@ -37426,6 +37919,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1539151781
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37483,7 +37977,7 @@ Transform:
   m_Children:
   - {fileID: 1545874336}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 209
+  m_RootOrder: 193
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1541939505
 MonoBehaviour:
@@ -37512,6 +38006,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1541939506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37652,7 +38147,7 @@ Transform:
   m_Children:
   - {fileID: 928941865}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 242
+  m_RootOrder: 224
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1548323080
 MonoBehaviour:
@@ -37681,6 +38176,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1548323081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37987,7 +38483,7 @@ Transform:
   m_Children:
   - {fileID: 68565705}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 252
+  m_RootOrder: 232
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1563922099
 MonoBehaviour:
@@ -38016,6 +38512,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1563922100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39016,7 +39513,7 @@ Transform:
   m_Children:
   - {fileID: 120418088}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 24
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1607250101
 MonoBehaviour:
@@ -39045,6 +39542,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1607250102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39102,7 +39600,7 @@ Transform:
   m_Children:
   - {fileID: 1762534621}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 104
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1609907109
 MonoBehaviour:
@@ -39131,6 +39629,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1609907110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39520,7 +40019,7 @@ Transform:
   m_Children:
   - {fileID: 799399080}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 93
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1626719511
 MonoBehaviour:
@@ -39549,6 +40048,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1626719512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39606,7 +40106,7 @@ Transform:
   m_Children:
   - {fileID: 1346204692}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 182
+  m_RootOrder: 170
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1631250080
 MonoBehaviour:
@@ -39635,6 +40135,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1631250081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39692,7 +40193,7 @@ Transform:
   m_Children:
   - {fileID: 1180130636}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 32
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1635588481
 MonoBehaviour:
@@ -39721,6 +40222,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1635588482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39759,7 +40261,7 @@ GameObject:
   - component: {fileID: 1637390925}
   - component: {fileID: 1637390924}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 1
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39777,8 +40279,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 799415864}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 67
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1637390924
 MonoBehaviour:
@@ -39807,6 +40309,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1637390925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40141,6 +40644,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1650456558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40262,7 +40766,7 @@ GameObject:
   - component: {fileID: 1652830272}
   - component: {fileID: 1652830271}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 8
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40280,8 +40784,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 183323288}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 99
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1652830271
 MonoBehaviour:
@@ -40310,6 +40814,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1652830272
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40431,7 +40936,7 @@ GameObject:
   - component: {fileID: 1658456772}
   - component: {fileID: 1658456771}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 1
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40449,8 +40954,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1182974672}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 49
+  m_Father: {fileID: 928921122}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1658456771
 MonoBehaviour:
@@ -40479,6 +40984,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1658456772
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40550,6 +41056,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1658595742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40586,8 +41093,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.48, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 238857965}
+  m_Children: []
   m_Father: {fileID: 851336319}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -40603,7 +41109,7 @@ GameObject:
   - component: {fileID: 1670678858}
   - component: {fileID: 1670678857}
   m_Layer: 0
-  m_Name: Node
+  m_Name: 6
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40621,8 +41127,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 61000630}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 275
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1670678857
 MonoBehaviour:
@@ -40651,6 +41157,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1670678858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40708,7 +41215,7 @@ Transform:
   m_Children:
   - {fileID: 227382763}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 46
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1672374957
 MonoBehaviour:
@@ -40737,6 +41244,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1672374958
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40960,7 +41468,7 @@ Transform:
   m_Children:
   - {fileID: 1116610176}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 285
+  m_RootOrder: 260
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1683460698
 MonoBehaviour:
@@ -40989,6 +41497,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1683460699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41046,7 +41555,7 @@ Transform:
   m_Children:
   - {fileID: 1355113728}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 134
+  m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1688723809
 MonoBehaviour:
@@ -41075,6 +41584,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1688723810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41160,6 +41670,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1694392448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41246,6 +41757,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1695058953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41386,7 +41898,7 @@ Transform:
   m_Children:
   - {fileID: 1738968166}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 212
+  m_RootOrder: 196
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1697151734
 MonoBehaviour:
@@ -41415,6 +41927,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1697151735
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41472,7 +41985,7 @@ Transform:
   m_Children:
   - {fileID: 1961149169}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 144
+  m_RootOrder: 133
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1700674093
 MonoBehaviour:
@@ -41501,6 +42014,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1700674094
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41724,7 +42238,7 @@ Transform:
   m_Children:
   - {fileID: 445793751}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 269
+  m_RootOrder: 246
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1706939254
 MonoBehaviour:
@@ -41753,6 +42267,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1706939255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41810,7 +42325,7 @@ Transform:
   m_Children:
   - {fileID: 285556121}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1711519483
 MonoBehaviour:
@@ -41839,6 +42354,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1711519484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42043,6 +42559,7 @@ GameObject:
   - component: {fileID: 1717993802}
   - component: {fileID: 1717993801}
   - component: {fileID: 1717993800}
+  - component: {fileID: 1717993804}
   m_Layer: 0
   m_Name: Rottweiler
   m_TagString: Enemy
@@ -42091,7 +42608,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 593446322148847454, guid: 4c7a8965dfe552e46bd3e27ad737d868, type: 3}
+  m_Sprite: {fileID: 1705273422791142794, guid: bfa4d794d17844348ab55df260e4af91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -42143,8 +42660,16 @@ MonoBehaviour:
   movementScript: {fileID: 0}
   startingNode: {fileID: 0}
   leaveHome: 1
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 543223580}
   testRespawn: 0
+  isScared: 0
+  scatterNodes:
+  - {fileID: 1003963879}
+  - {fileID: 1289641762}
+  - {fileID: 2111048720}
+  - {fileID: 1758082180}
+  scatterNodeIndex: 0
+  leftHome: 0
 --- !u!4 &1717993803
 Transform:
   m_ObjectHideFlags: 0
@@ -42153,12 +42678,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717993799}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.005, y: 0.274, z: 0}
+  m_LocalPosition: {x: -0.005, y: 0.843, z: 0}
   m_LocalScale: {x: 0.61875, y: 0.85, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1717993804
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717993799}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029454838, y: -0.012864837}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11970713, y: 0.12273918}
+  m_EdgeRadius: 0
 --- !u!1 &1723888957
 GameObject:
   m_ObjectHideFlags: 0
@@ -42190,7 +42741,7 @@ Transform:
   m_Children:
   - {fileID: 1590121430}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 150
+  m_RootOrder: 139
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1723888959
 MonoBehaviour:
@@ -42219,6 +42770,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1723888960
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42525,7 +43077,7 @@ Transform:
   m_Children:
   - {fileID: 642262565}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 44
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1751731770
 MonoBehaviour:
@@ -42554,6 +43106,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1751731771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42592,7 +43145,7 @@ GameObject:
   - component: {fileID: 1757418554}
   - component: {fileID: 1757418553}
   m_Layer: 0
-  m_Name: Node
+  m_Name: 5
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42610,8 +43163,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 480156090}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 287
+  m_Father: {fileID: 1885751703}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1757418553
 MonoBehaviour:
@@ -42640,6 +43193,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1757418554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42678,7 +43232,7 @@ GameObject:
   - component: {fileID: 1758082183}
   - component: {fileID: 1758082182}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 4
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42696,8 +43250,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 236184024}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 253
+  m_Father: {fileID: 326535755}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1758082182
 MonoBehaviour:
@@ -42726,6 +43280,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1758082183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42849,7 +43404,7 @@ Transform:
   m_Children:
   - {fileID: 280399695}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 258
+  m_RootOrder: 237
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1761624716
 MonoBehaviour:
@@ -42878,6 +43433,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1761624717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43114,7 +43670,7 @@ Transform:
   m_Children:
   - {fileID: 2057100295}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1764934474
 MonoBehaviour:
@@ -43143,6 +43699,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1764934475
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43200,7 +43757,7 @@ Transform:
   m_Children:
   - {fileID: 39004565}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 246
+  m_RootOrder: 227
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1773210892
 MonoBehaviour:
@@ -43229,6 +43786,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1773210893
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43283,8 +43841,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 454455535}
+  m_Children: []
   m_Father: {fileID: 851336319}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43315,6 +43872,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1783702296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43455,7 +44013,7 @@ Transform:
   m_Children:
   - {fileID: 1382722434}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 88
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1790651099
 MonoBehaviour:
@@ -43484,6 +44042,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1790651100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44039,7 +44598,7 @@ Transform:
   m_Children:
   - {fileID: 1620598726}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 129
+  m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1810380581
 MonoBehaviour:
@@ -44068,6 +44627,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1810380582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44125,7 +44685,7 @@ Transform:
   m_Children:
   - {fileID: 753872112}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 113
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1811752768
 MonoBehaviour:
@@ -44154,6 +44714,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1811752769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44488,6 +45049,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1828319319
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44628,7 +45190,7 @@ Transform:
   m_Children:
   - {fileID: 436996463}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 185
+  m_RootOrder: 173
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1832065515
 MonoBehaviour:
@@ -44657,6 +45219,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1832065516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44766,6 +45329,174 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1839097921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839097926}
+  - component: {fileID: 1839097925}
+  - component: {fileID: 1839097924}
+  - component: {fileID: 1839097923}
+  - component: {fileID: 1839097922}
+  m_Layer: 0
+  m_Name: GermanSheppard
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1839097922
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839097921}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029454838, y: -0.012864837}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11970713, y: 0.12273918}
+  m_EdgeRadius: 0
+--- !u!212 &1839097923
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839097921}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 593446322148847454, guid: 4c7a8965dfe552e46bd3e27ad737d868, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1839097924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839097921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c98032d3adf02c4e9d1b969f458ca92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  currentNode: {fileID: 0}
+  speed: 1.5
+  direction: 
+  previousDirection: 
+  warp: 1
+  isDog: 1
+--- !u!114 &1839097925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839097921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d1500c633e8ce45b1e0e95380020ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogNodeState: 0
+  dogType: 3
+  respawnState: 0
+  dogNodeStart: {fileID: 266308255}
+  dogNodeCenter: {fileID: 2092010687}
+  dogNodeLeft: {fileID: 1783702293}
+  dogNodeRight: {fileID: 1658595740}
+  movementScript: {fileID: 0}
+  startingNode: {fileID: 0}
+  leaveHome: 1
+  gameManager: {fileID: 543223580}
+  testRespawn: 0
+  isScared: 0
+  scatterNodes:
+  - {fileID: 338152158}
+  - {fileID: 951482164}
+  - {fileID: 1217503077}
+  - {fileID: 1079622007}
+  - {fileID: 1086296562}
+  - {fileID: 1670678855}
+  - {fileID: 711763719}
+  - {fileID: 2085467630}
+  - {fileID: 2111606457}
+  scatterNodeIndex: 0
+  leftHome: 0
+--- !u!4 &1839097926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839097921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.52, y: 0.274, z: 0}
+  m_LocalScale: {x: 0.61875, y: 0.85, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1839831108
 GameObject:
   m_ObjectHideFlags: 0
@@ -44880,7 +45611,7 @@ Transform:
   m_Children:
   - {fileID: 135686654}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 229
+  m_RootOrder: 211
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1847111131
 MonoBehaviour:
@@ -44909,6 +45640,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1847111132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -44966,7 +45698,7 @@ Transform:
   m_Children:
   - {fileID: 1357682215}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 218
+  m_RootOrder: 202
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1857423565
 MonoBehaviour:
@@ -44995,6 +45727,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1857423566
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45135,7 +45868,7 @@ Transform:
   m_Children:
   - {fileID: 1616738441}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1859081186
 MonoBehaviour:
@@ -45164,6 +45897,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1859081187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45221,7 +45955,7 @@ Transform:
   m_Children:
   - {fileID: 1799328035}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 50
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1860230555
 MonoBehaviour:
@@ -45250,6 +45984,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1860230556
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45307,7 +46042,7 @@ Transform:
   m_Children:
   - {fileID: 187967134}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 272
+  m_RootOrder: 249
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1865722225
 MonoBehaviour:
@@ -45336,6 +46071,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1865722226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45393,7 +46129,7 @@ Transform:
   m_Children:
   - {fileID: 1884571316}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 214
+  m_RootOrder: 198
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1876160418
 MonoBehaviour:
@@ -45422,6 +46158,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1876160419
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45479,7 +46216,7 @@ Transform:
   m_Children:
   - {fileID: 525695659}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 210
+  m_RootOrder: 194
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1880343966
 MonoBehaviour:
@@ -45508,6 +46245,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1880343967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45565,7 +46303,7 @@ Transform:
   m_Children:
   - {fileID: 909301382}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 60
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1884077641
 MonoBehaviour:
@@ -45594,6 +46332,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1884077642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45786,6 +46525,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1885751702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1885751703}
+  m_Layer: 0
+  m_Name: ScatterNodesPit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1885751703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885751702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1637390923}
+  - {fileID: 821157618}
+  - {fileID: 1003200682}
+  - {fileID: 1024627266}
+  - {fileID: 1757418552}
+  - {fileID: 1196486438}
+  - {fileID: 168325031}
+  - {fileID: 1652830270}
+  - {fileID: 1298331009}
+  m_Father: {fileID: 263565159}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887018042
 GameObject:
   m_ObjectHideFlags: 0
@@ -45900,7 +46678,7 @@ Transform:
   m_Children:
   - {fileID: 1814913691}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 176
+  m_RootOrder: 164
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1894365550
 MonoBehaviour:
@@ -45929,6 +46707,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1894365551
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46069,7 +46848,7 @@ Transform:
   m_Children:
   - {fileID: 142626671}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 33
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1909917889
 MonoBehaviour:
@@ -46098,6 +46877,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1909917890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46155,7 +46935,7 @@ Transform:
   m_Children:
   - {fileID: 1803781011}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 38
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1913950900
 MonoBehaviour:
@@ -46184,6 +46964,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1913950901
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46241,7 +47022,7 @@ Transform:
   m_Children:
   - {fileID: 1094492001}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 260
+  m_RootOrder: 239
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1914223318
 MonoBehaviour:
@@ -46270,6 +47051,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1914223319
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46438,6 +47220,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1915355030
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46495,7 +47278,7 @@ Transform:
   m_Children:
   - {fileID: 229592274}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 286
+  m_RootOrder: 261
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1920438549
 MonoBehaviour:
@@ -46524,6 +47307,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1920438550
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46609,6 +47393,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1920991325
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46666,7 +47451,7 @@ Transform:
   m_Children:
   - {fileID: 800306939}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 262
+  m_RootOrder: 240
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1927394544
 MonoBehaviour:
@@ -46695,6 +47480,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1927394545
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46752,7 +47538,7 @@ Transform:
   m_Children:
   - {fileID: 2031420750}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 202
+  m_RootOrder: 188
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1928019571
 MonoBehaviour:
@@ -46781,6 +47567,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1928019572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46838,7 +47625,7 @@ Transform:
   m_Children:
   - {fileID: 667482356}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 236
+  m_RootOrder: 218
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1932874177
 MonoBehaviour:
@@ -46867,6 +47654,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1932874178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46924,7 +47712,7 @@ Transform:
   m_Children:
   - {fileID: 1068064607}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 58
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1941035268
 MonoBehaviour:
@@ -46953,6 +47741,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1941035269
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47038,6 +47827,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &1948539716
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47593,7 +48383,7 @@ Transform:
   m_Children:
   - {fileID: 1027971146}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 27
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1969990287
 MonoBehaviour:
@@ -47622,6 +48412,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1969990288
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47679,7 +48470,7 @@ Transform:
   m_Children:
   - {fileID: 108938416}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 30
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1970322639
 MonoBehaviour:
@@ -47708,6 +48499,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1970322640
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47765,7 +48557,7 @@ Transform:
   m_Children:
   - {fileID: 1077740989}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 64
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1983255798
 MonoBehaviour:
@@ -47794,6 +48586,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1983255799
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47851,7 +48644,7 @@ Transform:
   m_Children:
   - {fileID: 920817226}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 101
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1984631715
 MonoBehaviour:
@@ -47880,6 +48673,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1984631716
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47937,7 +48731,7 @@ Transform:
   m_Children:
   - {fileID: 704837621}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 198
+  m_RootOrder: 184
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1988584590
 MonoBehaviour:
@@ -47966,6 +48760,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1988584591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48023,7 +48818,7 @@ Transform:
   m_Children:
   - {fileID: 1906970305}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 89
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1989172445
 MonoBehaviour:
@@ -48052,6 +48847,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1989172446
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48109,7 +48905,7 @@ Transform:
   m_Children:
   - {fileID: 1644490681}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 247
+  m_RootOrder: 228
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1991085804
 MonoBehaviour:
@@ -48138,6 +48934,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1991085805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48195,7 +48992,7 @@ Transform:
   m_Children:
   - {fileID: 1701211221}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 31
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1997877723
 MonoBehaviour:
@@ -48224,6 +49021,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1997877724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48281,7 +49079,7 @@ Transform:
   m_Children:
   - {fileID: 962113318}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 105
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1999996297
 MonoBehaviour:
@@ -48310,6 +49108,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &1999996298
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48450,7 +49249,7 @@ Transform:
   m_Children:
   - {fileID: 227353133}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 161
+  m_RootOrder: 149
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2022932988
 MonoBehaviour:
@@ -48479,6 +49278,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2022932989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48536,7 +49336,7 @@ Transform:
   m_Children:
   - {fileID: 1357987116}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2027597261
 MonoBehaviour:
@@ -48565,6 +49365,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2027597262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48788,7 +49589,7 @@ Transform:
   m_Children:
   - {fileID: 748941976}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 82
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2034245661
 MonoBehaviour:
@@ -48817,6 +49618,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2034245662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48874,7 +49676,7 @@ Transform:
   m_Children:
   - {fileID: 712921273}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 91
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2035620810
 MonoBehaviour:
@@ -48903,6 +49705,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2035620811
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48988,6 +49791,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &2043129809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49045,7 +49849,7 @@ Transform:
   m_Children:
   - {fileID: 797499269}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 98
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2051153674
 MonoBehaviour:
@@ -49074,6 +49878,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2051153675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49214,7 +50019,7 @@ Transform:
   m_Children:
   - {fileID: 1741368015}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 238
+  m_RootOrder: 220
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2061666148
 MonoBehaviour:
@@ -49243,6 +50048,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2061666149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49303,7 +50109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291, y: -135}
+  m_AnchoredPosition: {x: -1497.8, y: -135}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066925209
@@ -49407,6 +50213,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 1
 --- !u!61 &2072673211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49713,7 +50520,7 @@ Transform:
   m_Children:
   - {fileID: 838796427}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 278
+  m_RootOrder: 253
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2079234175
 MonoBehaviour:
@@ -49742,6 +50549,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2079234176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49965,7 +50773,7 @@ Transform:
   m_Children:
   - {fileID: 855828837}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 172
+  m_RootOrder: 160
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2085402763
 MonoBehaviour:
@@ -49994,6 +50802,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2085402764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50032,7 +50841,7 @@ GameObject:
   - component: {fileID: 2085467633}
   - component: {fileID: 2085467632}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 8
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50050,8 +50859,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1242854220}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 192
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2085467632
 MonoBehaviour:
@@ -50080,6 +50889,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2085467633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50300,8 +51110,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.025, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 858835004}
+  m_Children: []
   m_Father: {fileID: 851336319}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50332,6 +51141,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2092010690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50389,7 +51199,7 @@ Transform:
   m_Children:
   - {fileID: 705871064}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 178
+  m_RootOrder: 166
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2092324421
 MonoBehaviour:
@@ -50418,6 +51228,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2092324422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50475,7 +51286,7 @@ Transform:
   m_Children:
   - {fileID: 1126225696}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 51
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2094926068
 MonoBehaviour:
@@ -50504,6 +51315,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2094926069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50561,7 +51373,7 @@ Transform:
   m_Children:
   - {fileID: 1097314574}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 84
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2097382021
 MonoBehaviour:
@@ -50590,6 +51402,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2097382022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50647,6 +51460,7 @@ Transform:
   - {fileID: 1480695307}
   - {fileID: 1211513276}
   - {fileID: 851336319}
+  - {fileID: 263565159}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50681,7 +51495,7 @@ Transform:
   m_Children:
   - {fileID: 208393861}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 127
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2100633650
 MonoBehaviour:
@@ -50710,6 +51524,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2100633651
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50767,7 +51582,7 @@ Transform:
   m_Children:
   - {fileID: 399239663}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 36
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2107224814
 MonoBehaviour:
@@ -50796,6 +51611,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2107224815
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50917,7 +51733,7 @@ GameObject:
   - component: {fileID: 2111048723}
   - component: {fileID: 2111048722}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 3
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50935,8 +51751,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 248667395}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 249
+  m_Father: {fileID: 326535755}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2111048722
 MonoBehaviour:
@@ -50965,6 +51781,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2111048723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51003,7 +51820,7 @@ GameObject:
   - component: {fileID: 2111606460}
   - component: {fileID: 2111606459}
   m_Layer: 0
-  m_Name: Node(Clone)
+  m_Name: 9
   m_TagString: Node
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51021,8 +51838,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1887018043}
-  m_Father: {fileID: 20851078}
-  m_RootOrder: 189
+  m_Father: {fileID: 125453113}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2111606459
 MonoBehaviour:
@@ -51051,6 +51868,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2111606460
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51191,7 +52009,7 @@ Transform:
   m_Children:
   - {fileID: 2030772447}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 167
+  m_RootOrder: 155
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2117773515
 MonoBehaviour:
@@ -51220,6 +52038,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2117773516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51277,7 +52096,7 @@ Transform:
   m_Children:
   - {fileID: 147144474}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 257
+  m_RootOrder: 236
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2119149809
 MonoBehaviour:
@@ -51306,6 +52125,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2119149810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51363,7 +52183,7 @@ Transform:
   m_Children:
   - {fileID: 712441761}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 235
+  m_RootOrder: 217
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2119195240
 MonoBehaviour:
@@ -51392,6 +52212,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2119195241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51532,7 +52353,7 @@ Transform:
   m_Children:
   - {fileID: 658811574}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 65
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2125249149
 MonoBehaviour:
@@ -51561,6 +52382,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2125249150
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51701,7 +52523,7 @@ Transform:
   m_Children:
   - {fileID: 508717758}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 267
+  m_RootOrder: 244
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2131303454
 MonoBehaviour:
@@ -51730,6 +52552,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2131303455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51787,7 +52610,7 @@ Transform:
   m_Children:
   - {fileID: 431350345}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 66
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2136896701
 MonoBehaviour:
@@ -51816,6 +52639,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2136896702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51873,7 +52697,7 @@ Transform:
   m_Children:
   - {fileID: 1043986013}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 137
+  m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2138403785
 MonoBehaviour:
@@ -51902,6 +52726,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2138403786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51959,7 +52784,7 @@ Transform:
   m_Children:
   - {fileID: 2081604097}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 211
+  m_RootOrder: 195
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2139267250
 MonoBehaviour:
@@ -51988,6 +52813,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2139267251
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52045,7 +52871,7 @@ Transform:
   m_Children:
   - {fileID: 1092814482}
   m_Father: {fileID: 20851078}
-  m_RootOrder: 186
+  m_RootOrder: 174
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2144956079
 MonoBehaviour:
@@ -52074,6 +52900,7 @@ MonoBehaviour:
   hasMilk: 0
   isDogStartingNode: 0
   milkSprite: {fileID: 0}
+  isSideNode: 0
 --- !u!61 &2144956080
 BoxCollider2D:
   m_ObjectHideFlags: 0

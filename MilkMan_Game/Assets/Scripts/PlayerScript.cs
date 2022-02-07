@@ -1,17 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerScript : MonoBehaviour
 {
     
     MovementScript movementController;
+
+    public GameObject startNode;
+
+    Vector2 startPos;
     // Start is called before the first frame update
     void Awake()
     {
-       
-
+       startPos=new Vector2(0.332f,-0.47f);
         movementController = GetComponent<MovementScript>();
+
+        startNode = movementController.currentNode;
+    }
+
+    public void SetUp()
+    {
+        movementController.currentNode=startNode;
+        movementController.previousDirection="left";
     }
 
     // Update is called once per frame

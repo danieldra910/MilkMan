@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class EnemyController : MonoBehaviour
 {
     public enum DogNodeStateEnum
@@ -40,10 +40,19 @@ public class EnemyController : MonoBehaviour
     public GameManager gameManager;
 
     public bool testRespawn = false;
+    public bool isScared =false;
+
+    public GameObject [] scatterNodes;
+
+    public int scatterNodeIndex;
+
+    public bool leftHome=false;
 
     // Start is called before the first frame update
     void Awake()
     {
+        scatterNodeIndex=0;
+
         gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
 
 
@@ -55,6 +64,7 @@ public class EnemyController : MonoBehaviour
             respawnState = DogNodeStateEnum.centerNode;
             startingNode = dogNodeStart;
             leaveHome = true;
+            leftHome=true;
         }
         else if( dogType == DogType.puddle)
         {
@@ -86,15 +96,57 @@ public class EnemyController : MonoBehaviour
             dogNodeState = DogNodeStateEnum.respawining;
             testRespawn = false;
         }
+
+        if(movementScript.currentNode.GetComponent<NodeController>().isSideNode)
+        {
+            movementScript.SetSpeed(1);
+        }
+        else
+        {
+            movementScript.SetSpeed(2);
+        }
     }
 
     public void ReachedCenterOfNode (NodeController nodeController)
     {
         if(dogNodeState == DogNodeStateEnum.movingInNodes)
         {
-            if(dogType == DogType.rott)
+            leftHome=true;
+            // Scatter mode
+            if(gameManager.currentDogMode == GameManager.DogMode.scatter)
             {
-                DetermineRottWeilerDirection();
+                //reached scatter node
+                DetermineScatterModeDirection();
+            }
+            //Scared mode
+            else if(isScared==true)
+            {
+                string direction = RandomDirection();
+                movementScript.SetDirection(direction);
+
+            }
+            //Chase Mode
+            else
+            {
+
+                if(dogType == DogType.rott)
+                {
+                    DetermineRottWeilerDirection();
+                }
+
+                else if(dogType==DogType.puddle)
+                {
+                    DeterminePuddleDirection();
+                }
+                else if(dogType==DogType.pitbull)
+                {
+                    DeterminePitbullDirection();
+                }
+                else if(dogType==DogType.german)
+                {
+                    DetermineGermanSheppardDirection();
+                }
+
             }
         }
         else if(dogNodeState == DogNodeStateEnum.respawining)
@@ -168,17 +220,122 @@ public class EnemyController : MonoBehaviour
 
     void DeterminePuddleDirection()
     {
+        string milkmanDirection = gameManager.milkman.GetComponent<MovementScript>().previousDirection;
+        float distanceBetweenNodes = 0.28f;
+        Vector2 target = gameManager.milkman.transform.position;
 
+        if(milkmanDirection == "left")
+        {
+            target.x -= distanceBetweenNodes*2;
+        }
+        else if(milkmanDirection == "right")
+        {
+            target.x += distanceBetweenNodes*2;
+        }
+        else if(milkmanDirection == "up")
+        {
+            target.y += distanceBetweenNodes*2;
+        }
+        else if(milkmanDirection == "down")
+        {
+            target.y -= distanceBetweenNodes*2;
+        }
+        string direction = GetClosestDirection(target);
+        movementScript.SetDirection(direction);
     }
 
     void DeterminePitbullDirection()
     {
+        string milkmanDirection = gameManager.milkman.GetComponent<MovementScript>().previousDirection;
+        float distanceBetweenNodes = 0.28f;
+        Vector2 target = gameManager.milkman.transform.position;
 
+        if(milkmanDirection == "left")
+        {
+            target.x -= distanceBetweenNodes*2;
+        }
+        else if(milkmanDirection == "right")
+        {
+            target.x += distanceBetweenNodes*2;
+        }
+        else if(milkmanDirection == "up")
+        {
+            target.y += distanceBetweenNodes*2;
+        }
+        else if(milkmanDirection == "down")
+        {
+            target.y -= distanceBetweenNodes*2;
+        }
+        GameObject rott = gameManager.rottweiler;
+        float xDistance = target.x - rott.transform.position.x;
+        float yDistance = target.y - rott.transform.position.y;
+
+        Vector2 pitbullTarget = new Vector2(target.x + xDistance , target.y + yDistance);
+        string distance =GetClosestDirection(pitbullTarget);
+        movementScript.SetDirection(distance);
     }
 
     void DetermineGermanSheppardDirection()
     {
-        
+        float distance = Vector2.Distance(gameManager.milkman.transform.position , transform.position);
+        float distanceBetweenNodes = 0.28f;
+
+        if(distance<0)
+        {
+            distance*=-1;
+        }
+        //within 8 nodes of player
+        if(distance <= distanceBetweenNodes*8)
+        {
+            DetermineRottWeilerDirection();
+        }
+        else
+        {
+            DetermineScatterModeDirection();
+        }
+    }
+
+    string RandomDirection()
+    {
+        List<string> possibleDirections = new List<string>();
+        NodeController nodeController = movementScript.currentNode.GetComponent<NodeController>();
+
+        if(nodeController.canMoveDown && movementScript.previousDirection !="up")
+        {
+            possibleDirections.Add("down");
+        }
+        if(nodeController.canMoveUp && movementScript.previousDirection !="down")
+        {
+            possibleDirections.Add("up");
+        }
+        if(nodeController.canMoveRight && movementScript.previousDirection !="left")
+        {
+            possibleDirections.Add("right");
+        }
+        if(nodeController.canMoveLeft && movementScript.previousDirection !="right")
+        {
+            possibleDirections.Add("left");
+        }
+        string direction = "";
+        int RandomDirectionIndex = Random.Range(0,possibleDirections.Count-1);
+        direction = possibleDirections[RandomDirectionIndex];
+
+        return direction;
+    }
+
+    void DetermineScatterModeDirection()
+    {
+        if(transform.position.x == scatterNodes[scatterNodeIndex].transform.position.x && transform.position.y == scatterNodes[scatterNodeIndex].transform.position.y )
+        {
+            scatterNodeIndex++;
+
+            if(scatterNodeIndex == scatterNodes.Length-1)
+            {
+                scatterNodeIndex=0;
+            }
+        }
+        string direction = GetClosestDirection (scatterNodes[scatterNodeIndex].transform.position);
+        movementScript.SetDirection(direction);
     }
 
     string GetClosestDirection(Vector2 target)
